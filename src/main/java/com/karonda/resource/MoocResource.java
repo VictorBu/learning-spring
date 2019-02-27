@@ -22,7 +22,7 @@ public class MoocResource implements ApplicationContextAware  {
 		//Resource resource = applicationContext.getResource("classpath:config.txt");
 		//Resource resource = applicationContext.getResource("file:E:\\project\\java\\demo\\learningspring\\src\\main\\resources\\config.txt");
 		//Resource resource = applicationContext.getResource("https://www.cnblogs.com/victorbu/p/10430698.html");
-		//Resource resource = applicationContext.getResource("config.txt");
+		Resource resource = applicationContext.getResource("config.txt");
 		System.out.println(resource.getFilename());
 		System.out.println(resource.contentLength());
 	}

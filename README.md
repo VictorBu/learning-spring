@@ -9,4 +9,5 @@ learning spring demo code
 1. [Aware 接口](https://www.cnblogs.com/victorbu/p/10430307.html)
 1. [自动装配](https://www.cnblogs.com/victorbu/p/10430698.html)
 1. [Resource](https://www.cnblogs.com/victorbu/p/10431712.html)
+1. [注解之 Bean 的定义及作用域](https://www.cnblogs.com/victorbu/p/10448088.html)
 
