@@ -26,5 +26,11 @@ public class TestJavabased extends UnitTestBase {
 		MyDriverManager manager = super.getBean("myDriverManager");
 		System.out.println(manager.getClass().getName());
 	}
-	
+
+	@Test
+	public void testG() {
+		Store store = super.getBean("stringStoreTest");
+	}
+
+
 }
