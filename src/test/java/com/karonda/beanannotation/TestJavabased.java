@@ -1,6 +1,7 @@
 package com.karonda.beanannotation;
 
 import com.karonda.base.UnitTestBase;
+import com.karonda.beanannotation.javabased.MyDriverManager;
 import com.karonda.beanannotation.javabased.Store;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -17,6 +18,13 @@ public class TestJavabased extends UnitTestBase {
 	public void test() {
 		Store store = super.getBean("stringStore");
 		System.out.println(store.getClass().getName());
+	}
+
+
+	@Test
+	public void testMyDriverManager() {
+		MyDriverManager manager = super.getBean("myDriverManager");
+		System.out.println(manager.getClass().getName());
 	}
 	
 }
