@@ -3,17 +3,22 @@ package com.karonda.beanannotation.jsr;
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 import javax.annotation.Resource;
+import javax.inject.Inject;
+import javax.inject.Named;
 
 import org.springframework.stereotype.Service;
 
-@Service
+//@Service
+@Named
 public class JsrServie {
 	
-	@Resource
+//	@Resource
+//	@Inject
 	private JsrDAO jsrDAO;
 	
 //	@Resource
-	public void setJsrDAO(JsrDAO jsrDAO) {
+	@Inject
+	public void setJsrDAO(@Named("jsrDAO") JsrDAO jsrDAO) {
 		this.jsrDAO = jsrDAO;
 	}
 

@@ -12,4 +12,5 @@ learning spring demo code
 1. [注解之 Bean 的定义及作用域](https://www.cnblogs.com/victorbu/p/10448088.html)
 1. [注解之 @Required, @Autowired, @Qualifier](https://www.cnblogs.com/victorbu/p/10457922.html)
 1. [注解之 @Bean, @ImportResource, @Value](https://www.cnblogs.com/victorbu/p/10464857.html)
+1. [注解之 Spring 对 JSR 支持](https://www.cnblogs.com/victorbu/p/10469510.html)
 
