@@ -13,4 +13,6 @@ learning spring demo code
 1. [注解之 @Required, @Autowired, @Qualifier](https://www.cnblogs.com/victorbu/p/10457922.html)
 1. [注解之 @Bean, @ImportResource, @Value](https://www.cnblogs.com/victorbu/p/10464857.html)
 1. [注解之 Spring 对 JSR 支持](https://www.cnblogs.com/victorbu/p/10469510.html)
+1. [AOP 基本概念及特点](https://www.cnblogs.com/victorbu/p/10471227.html)
+1. [AOP 配置](https://www.cnblogs.com/victorbu/p/10499476.html)
 
