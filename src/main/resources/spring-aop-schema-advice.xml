@@ -28,6 +28,11 @@
 			<aop:around method="aroundInit" pointcut="execution(* com.karonda.aop.schema.advice.biz.AspectBiz.init(String, int))
 				and args(bizName, times)"/>
 
+			<!--Introduction-->
+			<aop:declare-parents types-matching="com.karonda.aop.schema.advice.biz.*(+)"
+								 implement-interface="com.karonda.aop.schema.advice.Fit"
+								 default-impl="com.karonda.aop.schema.advice.FitImpl"/>
+
 		</aop:aspect>
 	</aop:config>
 

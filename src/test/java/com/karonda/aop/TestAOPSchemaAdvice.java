@@ -1,5 +1,6 @@
 package com.karonda.aop;
 
+import com.karonda.aop.schema.advice.Fit;
 import com.karonda.aop.schema.advice.biz.AspectBiz;
 import com.karonda.base.UnitTestBase;
 import org.junit.Test;
@@ -22,5 +23,11 @@ public class TestAOPSchemaAdvice extends UnitTestBase {
     public void testInit(){
         AspectBiz biz = super.getBean("aspectBiz");
         biz.init("moocService", 3);
+    }
+
+    @Test
+    public void testFit(){
+        Fit fit = (Fit)super.getBean("aspectBiz");
+        fit.filter();
     }
 }
